@@ -1,0 +1,108 @@
+html, body {
+    background-color: #BAFA73;
+    padding: 25px;
+    font-size: 18px;}
+    @font-face {
+        font-family: 'Libre Baskerville', 'Playfair Display', serif;
+        src: url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Playfair+Display:wght@400;800&display=swap');
+    }
+
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-style: normal;
+    color: rgb(36,28,21);
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.column1of2 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+.column2of2 {
+    float: left;
+    width: 620px;
+    margin: 10px;
+    margin-left: 5%;
+}
+h1, h2, h3, ul {
+    font-family: 'Playfair Display', serif;
+    color: #2069A8;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+h1 {
+    font-weight: 900;
+    font-size: 36px;
+    text-align: left;
+    display: inline;
+    text-transform: uppercase;
+    word-spacing: .25em;
+    padding-top: 100%;
+    margin-bottom: 20%;
+}
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    word-spacing: .5em;
+    text-decoration: underline;
+    margin-top: 0%;
+}
+h3 {
+    margin-bottom: 0%;
+    margin-left: 20%;
+}
+
+img.align-left {
+    float: left;
+    margin-right: 10px;
+    margin-top: 0%;
+}
+
+ul {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: #37D620;
+    border-top: 6px solid #E07F4C;
+    border-bottom: 3px solid #E07F4C;
+    text-align: center;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+    margin: 0px 67px;
+    padding: 0px;
+    align-content: center;
+    margin-bottom: 10%;
+    font-size: 22px;
+}
+
+#nav:hover {
+    color: #E07F4C;
+    text-decoration: none;
+}
+
+blockquote {
+    float: left;
+    display: inline;
+    width: 30%;
+    font-size: 100%;
+    font-style: italic;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 3px solid #2069A8;
+    border-bottom: 3px solid #2069A8;
+}
+.logo {
+    align-content: center;
+    justify-content: center;}
